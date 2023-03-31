@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/tv_tt1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:drawableStart="@drawable/keyboard_backspace_40"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/v_v1"
+            android:layout_marginTop="50dp"
+            android:background="#CEE0F3"
+            />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/v_v1"
+            android:layout_marginTop="0dp"
+            android:paddingTop="15dp"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:text="الدفع لصديق"
+            android:textColor="@color/normal"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="180dp"
+            android:id="@+id/btn_ed1"
+            android:layout_below="@id/tv_name"
+            android:layout_alignParentLeft="true"
+            android:text="صديقك من جهات الاتصال أو رقم المحمول"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="#ffff"
+            android:paddingTop="30dp"
+            android:textColor="@color/black"
+
+            android:drawableTop="@drawable/without_contact_70"
+
+
+
+            />
+    </RelativeLayout>
+</ScrollView>

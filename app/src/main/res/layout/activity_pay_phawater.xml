@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/tv_tt1"
+            android:layout_marginLeft="10dp"
+            android:drawableStart="@drawable/keyboard_backspace_40"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/v_v1"
+            android:layout_marginTop="50dp"
+            android:background="#CEE0F3"
+            />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/v_v1"
+            android:layout_marginTop="0dp"
+            android:paddingTop="15dp"
+            android:paddingRight="15dp"
+            android:text="دفع الفواتير"
+            android:textColor="@color/normal"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+
+                <Button
+            android:layout_width="120dp"
+            android:layout_height="160dp"
+            android:id="@+id/btn_ed1"
+            android:layout_below="@id/tv_name"
+            android:layout_alignParentLeft="true"
+            android:text="مزودين غاز"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="#ffff"
+            android:textColor="@color/black"
+            android:paddingTop="30dp"
+            android:drawableTop="@drawable/local_gas_station_70"
+
+
+
+            />
+
+        <Button
+            android:id="@+id/btn_ed2"
+            android:layout_width="120dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/tv_name"
+            android:layout_centerInParent="true"
+            android:backgroundTint="#ffff"
+            android:drawableTop="@drawable/precision_manufacturing_70"
+            android:paddingTop="20dp"
+            android:text="مؤسسات قروض صغيرة"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btn_ed3"
+            android:layout_width="120dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/tv_name"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#ffff"
+            android:drawableTop="@drawable/castle_24"
+
+            android:paddingTop="30dp"
+            android:text="جامعات"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btn_ed4"
+            android:layout_width="120dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/btn_ed1"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#ffff"
+            android:drawableTop="@drawable/shopping_bag_70"
+            android:paddingTop="20dp"
+            android:text="مواقع التسوق الالكتروني"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btn_ed5"
+            android:layout_width="120dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/btn_ed2"
+            android:layout_centerInParent="true"
+            android:backgroundTint="#ffff"
+            android:drawableTop="@drawable/domain_70"
+            android:paddingTop="20dp"
+            android:text="البلديات"
+            android:textColor="@color/black" />
+        <Button
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:id="@+id/btn_ed6"
+        android:layout_below="@id/btn_ed3"
+        android:layout_alignParentLeft="true"
+        android:text="اشتراك قنوات فضائية"
+        android:layout_marginLeft="10dp"
+        android:backgroundTint="#ffff"
+        android:textColor="@color/black"
+        android:paddingTop="10dp"
+        android:drawableTop="@drawable/emergency_70"
+            />
+
+        <Button
+            android:id="@+id/btn_ed7"
+            android:layout_width="120dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/btn_ed4"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#ffff"
+            android:drawableTop="@drawable/dataset_linked_70"
+            android:paddingTop="20dp"
+            android:text="نظام فوترة وسيط"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btn_ed8"
+            android:layout_width="120dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/btn_ed5"
+            android:layout_centerInParent="true"
+            android:backgroundTint="#ffff"
+            android:drawableTop="@drawable/departure_board_70"
+            android:paddingTop="30dp"
+            android:text="شركات التوصيل"
+            android:textColor="@color/black" />
+         <Button
+            android:layout_width="120dp"
+            android:layout_height="160dp"
+            android:id="@+id/btn_ed9"
+            android:layout_below="@id/btn_ed6"
+            android:layout_alignParentLeft="true"
+            android:text="شحن رصيد محفظة"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="#ffff"
+            android:textColor="@color/black"
+            android:paddingTop="20dp"
+            android:drawableTop="@drawable/settings_cell_70"
+                />
+
+        <Button
+            android:id="@+id/btn_ed10"
+            android:layout_width="120dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/btn_ed7"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#ffff"
+            android:drawableTop="@drawable/temple_hindu_70"
+            android:paddingTop="20dp"
+            android:text="شركات الاتصالات"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btn_ed11"
+            android:layout_width="120dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/btn_ed8"
+            android:layout_centerInParent="true"
+            android:backgroundTint="#ffff"
+            android:drawableTop="@drawable/wifi_4_bar_lock_70"
+            android:paddingTop="20dp"
+            android:text="شركات الانترنت"
+            android:textColor="@color/black" />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="160dp"
+            android:id="@+id/btn_ed12"
+            android:layout_below="@id/btn_ed9"
+            android:layout_alignParentLeft="true"
+            android:text="شركات الكهرباء"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="#ffff"
+            android:textColor="@color/black"
+            android:paddingTop="30dp"
+            android:drawableTop="@drawable/tips_and_updates_70"
+            />
+
+        <Button
+            android:id="@+id/btn_ed13"
+            android:layout_width="120dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/btn_ed10"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#ffff"
+            android:drawableTop="@drawable/add_card_70"
+            android:paddingTop="20dp"
+            android:text="مواقع حجز تذاكر"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btn_ed14"
+            android:layout_width="120dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/btn_ed11"
+            android:layout_centerInParent="true"
+            android:backgroundTint="#ffff"
+            android:drawableTop="@drawable/diversity_1_70"
+            android:paddingTop="5dp"
+            android:text="تبرعات المؤسسات الخيرية"
+            android:textColor="@color/black" />
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="160dp"
+            android:id="@+id/btn_ed15"
+            android:layout_below="@id/btn_ed12"
+            android:layout_alignParentLeft="true"
+            android:text="اشتراكات النقابات"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="#ffff"
+            android:textColor="@color/black"
+            android:paddingTop="20dp"
+            android:drawableTop="@drawable/dataset_70"
+            />
+
+        <Button
+            android:id="@+id/btn_ed16"
+            android:layout_width="120dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/btn_ed13"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#ffff"
+            android:drawableTop="@drawable/water_drop_70"
+            android:paddingTop="30dp"
+            android:text="موردين مياه"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btn_ed17"
+            android:layout_width="120dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/btn_ed14"
+            android:layout_centerInParent="true"
+            android:backgroundTint="#ffff"
+            android:drawableTop="@drawable/directions_car_filled_70"
+            android:paddingTop="10dp"
+            android:text="شركات شحن سيارات كهربائية"
+            android:textColor="@color/black" />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="160dp"
+            android:id="@+id/btn_ed18"
+            android:layout_below="@id/btn_ed15"
+            android:layout_alignParentLeft="true"
+            android:text="خدمات تعليمية"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="#ffff"
+            android:textColor="@color/black"
+            android:paddingTop="20dp"
+            android:drawableTop="@drawable/keyboard_hide_70"
+            />
+        <Button
+            android:id="@+id/btn_ed19"
+            android:layout_width="120dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/btn_ed16"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#ffff"
+            android:drawableTop="@drawable/signpost_70"
+            android:paddingTop="20dp"
+            android:text="شركات دعاية واعلان"
+            android:textColor="@color/black" />
+
+    </RelativeLayout>
+</ScrollView>

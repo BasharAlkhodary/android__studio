@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+
+
+    <TextView
+        android:id="@+id/tv_draw"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:drawableEnd="@drawable/table_rows_30"
+        android:padding="10dp"
+        />
+    <TextView
+        android:id="@+id/tv_155"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:drawableStart="@drawable/notifications_none_30"
+        android:padding="10dp"
+        />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="0dp"
+        android:layout_centerHorizontal="true"
+        android:drawableStart="@drawable/code_scanner_30"
+        android:paddingLeft="10dp"
+        android:paddingTop="8dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/v_one"
+        android:layout_marginTop="55dp"
+        android:background="#CEE0F3"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/tv_Main"
+        android:layout_below="@id/v_one"
+        android:text="الرئيسية"
+        android:textSize="20sp"
+        android:textColor="#9A1342"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_msaa"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/tv_Main"
+        android:layout_marginTop="1dp"
+        android:background="#9A1342"
+        />
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="130dp"
+        android:layout_centerHorizontal="true"
+        android:background="#fff"
+        android:layout_below="@id/tv_Main"
+        android:layout_marginTop="10dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/tv_name"
+        android:text="مساء الخير, بشار اياد عوض الخضري."
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_below="@id/tv_Main"
+        android:paddingTop="30dp"
+        android:paddingRight="30dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/tv_date"
+        android:text="اخر تسجيل   اليوم,4:15:58 م"
+        android:layout_below="@id/tv_name"
+        android:paddingRight="30dp"
+        android:textColor="#6F7173"
+        />
+    <View
+    android:layout_width="332dp"
+    android:layout_height="1dp"
+    android:id="@+id/v_two"
+    android:layout_below="@id/tv_date"
+    android:layout_marginTop="-20dp"
+    android:background="#CEE0F3"
+    android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:id="@+id/tv_num"
+        android:layout_below="@id/v_two"
+        android:text="رقم الحساب"
+        android:textColor="#6F7173"
+        android:paddingRight="30dp"
+        android:paddingTop="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/tv_numn"
+        android:layout_below="@id/tv_num"
+        android:text="هو 1285977 - 0445"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="-5dp"
+        android:paddingRight="30dp"
+    />
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/tv_ctrl"
+        android:layout_below="@id/tv_numn"
+        android:text="الاختصارات"
+        android:paddingRight="18dp"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:id="@+id/et_ed1"
+        android:layout_below="@id/tv_ctrl"
+        android:layout_alignParentLeft="true"
+        android:text="التحويلات"
+        android:layout_marginLeft="10dp"
+        android:backgroundTint="#ffff"
+        android:textColor="@color/black"
+        android:paddingTop="30dp"
+        android:drawableTop="@drawable/swap_horiz_70"
+
+
+
+        />
+
+    <Button
+        android:id="@+id/et_ed2"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:layout_below="@id/tv_ctrl"
+        android:layout_centerInParent="true"
+        android:backgroundTint="#ffff"
+        android:drawableTop="@drawable/book_70"
+        android:paddingTop="30dp"
+        android:text="البطاقات"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/et_ed3"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:layout_below="@id/tv_ctrl"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="#ffff"
+        android:drawableTop="@drawable/ic_baseline_wallet_70"
+        android:paddingTop="30dp"
+        android:text="الحسابات"
+        android:textColor="@color/black" />
+    <Button
+        android:id="@+id/et_ed4"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:layout_below="@id/et_ed1"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="#ffff"
+        android:text="ادارة المستفيدين"
+        android:textColor="@color/black"
+        android:paddingTop="20dp"
+        android:drawableTop="@drawable/groups_70"
+        />
+
+    <Button
+        android:id="@+id/et_ed5"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:layout_below="@id/et_ed2"
+        android:layout_centerInParent="true"
+        android:backgroundTint="#ffff"
+        android:paddingTop="20dp"
+        android:text="متابعة الحوالات الخارجية"
+        android:textColor="@color/black"
+        android:drawableTop="@drawable/command_key_70"
+        />
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:id="@+id/et_ed6"
+        android:layout_below="@id/et_ed3"
+        android:layout_alignParentLeft="true"
+        android:text="الدفع لصديق"
+        android:layout_marginLeft="10dp"
+        android:backgroundTint="#ffff"
+        android:textColor="@color/black"
+        android:paddingTop="30dp"
+        android:drawableTop="@drawable/without_contact_70"
+        />
+
+    <Button
+        android:id="@+id/et_ed7"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:layout_below="@id/et_ed4"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="#ffff"
+        android:drawableTop="@drawable/receipt_long_70"
+        android:paddingTop="30dp"
+        android:text="دفع الفواتير"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/et_ed8"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:layout_below="@id/et_ed5"
+        android:layout_centerInParent="true"
+        android:backgroundTint="#ffff"
+        android:paddingTop="30dp"
+        android:text="الشحن المسبق"
+        android:textColor="@color/black"
+        android:drawableTop="@drawable/exchange_70"
+        />
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:id="@+id/et_ed9"
+        android:layout_below="@id/et_ed6"
+        android:layout_alignParentLeft="true"
+        android:text="شراء رصيد"
+        android:layout_marginLeft="10dp"
+        android:backgroundTint="#ffff"
+        android:textColor="@color/black"
+        android:paddingTop="30dp"
+        android:drawableTop="@drawable/done_all_70"
+        />
+
+    <Button
+        android:id="@+id/et_ed10"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:layout_below="@id/et_ed7"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="#ffff"
+        android:paddingTop="30dp"
+        android:text="دفاتر الشيكات"
+        android:textColor="@color/black"
+        android:drawableTop="@drawable/menu_book_70"/>
+
+    <Button
+        android:id="@+id/et_ed11"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:layout_below="@id/et_ed8"
+        android:layout_centerInParent="true"
+        android:backgroundTint="#ffff"
+        android:paddingTop="20dp"
+        android:text="عرض الشيكات الاجلة"
+        android:textColor="@color/black"
+        android:drawableTop="@drawable/newspaper_70"
+        />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:id="@+id/et_ed12"
+        android:layout_below="@id/et_ed9"
+        android:layout_alignParentLeft="true"
+        android:text="نقاطكم"
+        android:layout_marginLeft="10dp"
+        android:backgroundTint="#ffff"
+        android:textColor="@color/black"
+        android:paddingTop="30dp"
+        android:drawableTop="@drawable/bubble_chart_24"
+        />
+    <Button
+        android:id="@+id/et_ed13"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:layout_below="@id/et_ed10"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="#ffff"
+        android:paddingTop="30dp"
+        android:text="التبرع"
+        android:textColor="@color/black"
+        android:drawableTop="@drawable/volunteer_activism_70"
+        />
+
+    <Button
+        android:id="@+id/et_ed14"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:layout_below="@id/et_ed11"
+        android:layout_centerInParent="true"
+        android:backgroundTint="#ffff"
+        android:paddingTop="30dp"
+        android:text="الحملات"
+        android:textColor="@color/black"
+        android:drawableTop="@drawable/celebration_70"
+        />
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:id="@+id/et_ed15"
+        android:layout_below="@id/et_ed12"
+        android:layout_alignParentLeft="true"
+        android:text="أسهمي"
+        android:layout_marginLeft="10dp"
+        android:backgroundTint="#ffff"
+        android:textColor="@color/black"
+        android:paddingTop="30dp"
+        android:drawableTop="@drawable/estate_agent_70"
+        />
+
+    <Button
+        android:id="@+id/et_ed16"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:layout_below="@id/et_ed13"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="#ffff"
+        android:paddingTop="30dp"
+        android:text="الاعدادات"
+        android:textColor="@color/black"
+        android:drawableTop="@drawable/miscellaneous_services_70"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/tv_hov"
+        android:layout_below="@id/et_ed16"
+        android:text="اخر حركات                                  المزيد"
+        android:paddingRight="18dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/tv_سحب"
+        android:layout_below="@id/tv_hov"
+        android:text="سحب كاش                            -250.0 دولار"
+        android:textColor="#9A1342"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="-30dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/tv_to1"
+        android:layout_below="@id/tv_سحب"
+        android:text="من ودائع العملاء دفاتر الفواتير          23/11/2022"
+        android:textSize="18sp"
+        android:textColor="#B3BBC3"
+        android:layout_marginTop="-45dp"
+        android:paddingBottom="20dp"
+        android:paddingRight="20dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/v_three"
+        android:layout_marginTop="-10dp"
+        android:layout_below="@id/tv_to1"
+        android:background="#CEE0F3"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/tv_ايداع"
+        android:layout_below="@id/tv_سحب"
+        android:text="ايداع كاش                           +2500.0 شيكل"
+        android:textColor="#9A1342"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/tv_to2"
+        android:layout_below="@id/tv_ايداع"
+        android:text="من ودائع العملاء دفاتر الفواتير         18/05/2022"
+        android:textSize="18sp"
+        android:textColor="#B3BBC3"
+        android:layout_marginTop="-22dp"
+        android:paddingRight="18dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/v_four"
+        android:layout_marginTop="-10dp"
+        android:layout_below="@id/tv_to2"
+        android:background="#CEE0F3"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/tv_ايداع2"
+        android:layout_below="@id/tv_ايداع"
+        android:text="ايداع كاش                            +400.0 دينار"
+        android:textColor="#9A1342"
+        android:paddingRight="18dp"
+        android:paddingTop="35dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/tv_to3"
+        android:layout_below="@id/tv_ايداع2"
+        android:text="من ودائع العملاء دفاتر الفواتير         20/04/2022"
+        android:textSize="18sp"
+        android:textColor="#B3BBC3"
+        android:layout_marginTop="-3dp"
+        android:paddingRight="20dp"
+        />
+
+
+</RelativeLayout>
+</ScrollView>

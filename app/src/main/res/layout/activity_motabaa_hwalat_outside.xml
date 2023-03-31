@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/tv_t1"
+            android:layout_marginLeft="10dp"
+            android:drawableStart="@drawable/keyboard_backspace_40"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/v_v1"
+            android:layout_marginTop="50dp"
+            android:background="#CEE0F3"
+            />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/v_v1"
+            android:layout_marginTop="0dp"
+            android:paddingTop="15dp"
+            android:paddingRight="15dp"
+            android:text="متابعة الحوالات الخارجية"
+            android:textColor="@color/normal"
+            android:textSize="20sp"
+            android:drawableStart="@drawable/baseline_usb_30"
+            android:layout_marginLeft="20dp"
+
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/tv_tv2"
+            android:layout_below="@id/tv_name"
+            android:paddingLeft="40dp"
+            android:drawableStart="@drawable/turn_slight_left_24"
+            />
+
+        <TextView
+            android:id="@+id/tv_tv3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/tv_tv2"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="لعرض التحويلات الخارجية استخدم الفلتر!"
+            android:textColor="@color/normal"
+            android:textSize="15dp"
+            android:paddingBottom="10dp"/>
+    </RelativeLayout>
+</ScrollView>

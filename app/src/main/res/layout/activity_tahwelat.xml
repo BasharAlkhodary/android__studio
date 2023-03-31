@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/tv_tt1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:drawableStart="@drawable/keyboard_backspace_40"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/v_v1"
+            android:layout_marginTop="50dp"
+            android:background="#CEE0F3"
+            />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/v_v1"
+            android:layout_marginTop="0dp"
+            android:paddingTop="15dp"
+            android:paddingRight="15dp"
+            android:text="التحويلات"
+            android:textColor="@color/normal"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:id="@+id/tv_method"
+            android:layout_below="@id/tv_name"
+            android:text="اختر طريقة"
+            android:textColor="@color/normal"
+            android:textSize="15sp"
+            android:paddingRight="15dp"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="160dp"
+            android:id="@+id/bt_btn1"
+            android:layout_below="@id/tv_method"
+            android:layout_alignParentLeft="true"
+            android:text="الى اخرين خارج البنك"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/backgroundbutton"
+            android:textColor="@color/white"
+            android:paddingTop="20dp"
+            android:drawableTop="@drawable/cloud_upload_70"
+
+            />
+
+        <Button
+            android:id="@+id/bt_btn2"
+            android:layout_width="120dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/tv_method"
+            android:layout_centerInParent="true"
+            android:background="@drawable/backgroundbutton"
+
+            android:drawableTop="@drawable/money_70"
+            android:paddingTop="20dp"
+            android:text="بين حسابات العميل"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/bt_btn3"
+            android:layout_width="120dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/tv_method"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/backgroundbutton"
+            android:drawableTop="@drawable/maps_home_work_70"
+            android:paddingTop="20dp"
+            android:text="الى اخرين داخل البنك"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:id="@+id/tv_choose"
+            android:layout_below="@id/bt_btn1"
+            android:text="اختر طريقة"
+            android:textColor="@color/normal"
+            android:textSize="15sp"
+            android:paddingRight="15dp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:layout_width="370dp"
+            android:layout_height="80dp"
+            android:id="@+id/ed_ed1"
+            android:layout_below="@id/tv_choose"
+            android:layout_marginTop="12dp"
+            android:layout_centerHorizontal="true"
+            android:hint="اختر حساب"
+            android:textColor="#383A3C"
+            android:paddingRight="10dp"
+            android:paddingBottom="35dp"
+            android:background="#65E7F4FD"
+            android:drawableStart="@drawable/keyboard_arrow_down_30"
+            />
+
+        <EditText
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:id="@+id/ed_ed2"
+            android:layout_below="@id/ed_ed1"
+            android:layout_marginTop="12dp"
+            android:layout_centerHorizontal="true"
+            android:hint="عملة التحويل"
+            android:textSize="17sp"
+            android:textColor="#383A3C"
+            android:paddingRight="10dp"
+            android:drawableStart="@drawable/keyboard_arrow_down_30"
+            />
+
+        <EditText
+            android:id="@+id/ed_ed3"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/ed_ed2"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:paddingRight="10dp"
+            android:hint="المبلغ"
+            android:textSize="17sp"
+            android:textColor="#383A3C" />
+
+        <EditText
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:id="@+id/ed_ed4"
+            android:layout_below="@id/ed_ed3"
+            android:layout_marginTop="12dp"
+            android:layout_centerHorizontal="true"
+            android:hint="نوع الرسوم"
+            android:textColor="#383A3C"
+            android:textSize="17sp"
+            android:paddingRight="10dp"
+            android:drawableStart="@drawable/keyboard_arrow_down_30"
+            />
+        <EditText
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:id="@+id/ed_ed5"
+            android:layout_below="@id/ed_ed4"
+            android:layout_marginTop="12dp"
+            android:layout_centerHorizontal="true"
+            android:hint="غرض الحوالة"
+            android:textSize="17sp"
+            android:textColor="#383A3C"
+            android:paddingRight="10dp"
+            android:drawableStart="@drawable/keyboard_arrow_down_30"
+            />
+        <EditText
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:id="@+id/ed_ed6"
+            android:layout_below="@id/ed_ed5"
+            android:layout_marginTop="12dp"
+            android:layout_centerHorizontal="true"
+            android:hint="نوع خدمة الحوالة"
+            android:textSize="17sp"
+            android:textColor="#383A3C"
+            android:paddingRight="10dp"
+            android:drawableStart="@drawable/keyboard_arrow_down_30"
+            />
+        <EditText
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:id="@+id/ed_ed7"
+            android:layout_below="@id/ed_ed6"
+            android:layout_marginTop="12dp"
+            android:layout_centerHorizontal="true"
+            android:hint="إلى حساب"
+            android:textSize="17sp"
+            android:textColor="#383A3C"
+            android:paddingRight="10dp"
+            android:drawableStart="@drawable/keyboard_arrow_down_30"
+            />
+        <EditText
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:id="@+id/ed_ed8"
+            android:layout_below="@id/ed_ed7"
+            android:layout_marginTop="12dp"
+            android:layout_centerHorizontal="true"
+            android:hint="معلومات التحويل"
+            android:textSize="17sp"
+            android:textColor="#383A3C"
+            android:paddingRight="10dp"
+            />
+        <Button
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:id="@+id/bt_btn4"
+            android:layout_below="@id/ed_ed8"
+            android:layout_centerHorizontal="true"
+            android:text="استمرار"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@drawable/backgroundbutton"
+            />
+    </RelativeLayout>
+</ScrollView>

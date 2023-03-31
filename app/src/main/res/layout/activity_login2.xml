@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/tv_tt1"
+        android:layout_marginRight="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginStart="350dp"
+        android:drawableEnd="@drawable/table_rows_30"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/v_v1"
+        android:layout_marginTop="50dp"
+        android:background="#CEE0F3"
+        />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="180dp"
+        android:text="تسجيل الدخول"
+        android:textColor="@color/normal"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_below="@id/v_v1"
+        />
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:id="@+id/tv_enter"
+        android:layout_below="@id/textView2"
+        android:layout_marginTop="40dp"
+        android:layout_centerInParent="true"
+        android:hint="أدخل اسم المستخدم"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:id="@+id/tv_pass"
+        android:layout_below="@id/tv_enter"
+        android:layout_marginTop="10dp"
+        android:hint="أدخل كلمة المرور"
+        android:layout_centerInParent="true"
+
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:gravity="center"
+        android:inputType="numberPassword"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/tv_forget"
+        android:layout_below="@id/tv_pass"
+        android:text="نسيت كلمة المرور؟"
+        android:textColor="#1278DF"
+        android:gravity="start"
+        android:paddingRight="20dp"
+        />
+    <Button
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:id="@+id/bt_btn1"
+        android:layout_below="@id/tv_forget"
+        android:layout_centerHorizontal="true"
+        android:text="التالي"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@drawable/backgroundbutton"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/Terms"
+        android:layout_below="@id/bt_btn1"
+        android:text="الشروط والأحكام"
+        android:textColor="#1278DF"
+        android:textSize="15sp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="18dp"
+        android:gravity="start"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/pay"
+        android:layout_below="@id/Terms"
+        android:text="الدفع لتاجر"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginRight="50dp"
+        android:gravity="start"
+
+        />
+
+    <Button
+        android:id="@+id/bt_btn2"
+        android:layout_width="120dp"
+        android:layout_height="140dp"
+        android:layout_below="@id/pay"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="20dp"
+        android:background="@color/white"
+        android:drawableTop="@drawable/ic_baseline_qr_code_scanner_70"
+        android:paddingTop="20dp"
+        android:text="امسح رمز QR"
+        android:textColor="@color/black"
+        android:textSize="13sp" />
+</RelativeLayout>

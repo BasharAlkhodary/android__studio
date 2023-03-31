@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+        <TextView
+            android:id="@+id/tv_draw1"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:drawableStart="@drawable/notifications_none_30"
+            android:drawableEnd="@drawable/table_rows_30"
+            android:padding="10dp"
+            />
+        <TextView
+            android:id="@+id/tv_draw2"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="0dp"
+            android:layout_centerHorizontal="true"
+            android:drawableStart="@drawable/code_scanner_30"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/v_v1"
+            android:layout_marginTop="55dp"
+            android:background="#CEE0F3"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/tv_Main"
+            android:layout_below="@id/v_v1"
+            android:text="الاعدادات"
+            android:textSize="20sp"
+            android:textColor="#9A1342"
+            android:textStyle="bold"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/tv_setting1"
+            android:layout_below="@id/tv_Main"
+            android:text="اتصل بنا"
+            android:textSize="18sp"
+            android:textColor="#B5090707"
+            android:paddingRight="10dp"
+            android:drawableEnd="@drawable/arrow_right_30"
+            android:paddingTop="15dp"
+            />
+
+        <View
+            android:layout_width="380dp"
+            android:layout_height="1dp"
+            android:id="@+id/v_v2"
+            android:layout_below="@id/tv_setting1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="#C1B1B7BD"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/tv_setting2"
+            android:layout_below="@id/v_v2"
+            android:text="عن بنك فلسطين"
+            android:textSize="18sp"
+            android:textColor="#B5090707"
+            android:paddingRight="10dp"
+            android:drawableEnd="@drawable/arrow_right_30"
+            android:paddingTop="15dp"
+            />
+
+        <View
+            android:layout_width="380dp"
+            android:layout_height="1dp"
+            android:id="@+id/v_v3"
+            android:layout_below="@id/tv_setting2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="#C1B1B7BD"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/tv_setting3"
+            android:layout_below="@id/v_v3"
+            android:text="مواقع"
+            android:textSize="18sp"
+            android:textColor="#B5090707"
+            android:paddingRight="10dp"
+            android:drawableEnd="@drawable/arrow_right_30"
+            android:paddingTop="15dp"
+            />
+
+        <View
+            android:layout_width="380dp"
+            android:layout_height="1dp"
+            android:id="@+id/v_v4"
+            android:layout_below="@id/tv_setting3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="#C1B1B7BD"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/tv_setting4"
+            android:layout_below="@id/v_v4"
+            android:text="حالة طلبات اضافة الخدمة"
+            android:textSize="18sp"
+            android:textColor="#B5090707"
+            android:paddingRight="10dp"
+            android:drawableEnd="@drawable/arrow_right_30"
+            android:paddingTop="15dp"
+            />
+
+        <View
+            android:layout_width="380dp"
+            android:layout_height="1dp"
+            android:id="@+id/v_v5"
+            android:layout_below="@id/tv_setting4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="#C1B1B7BD"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/tv_setting5"
+            android:layout_below="@id/v_v5"
+            android:text="تغيير كلمة المرور"
+            android:textSize="18sp"
+            android:textColor="#B5090707"
+            android:paddingRight="10dp"
+            android:drawableEnd="@drawable/arrow_right_30"
+            android:paddingTop="15dp"
+            />
+
+        <View
+            android:layout_width="380dp"
+            android:layout_height="1dp"
+            android:id="@+id/v_v6"
+            android:layout_below="@id/tv_setting5"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="#C1B1B7BD"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/tv_setting6"
+            android:layout_below="@id/v_v6"
+            android:text="تغيير كلمة سر الحوالات"
+            android:textSize="18sp"
+            android:textColor="#B5090707"
+            android:paddingRight="10dp"
+            android:drawableEnd="@drawable/arrow_right_30"
+            android:paddingTop="15dp"
+            />
+
+        <View
+            android:layout_width="380dp"
+            android:layout_height="1dp"
+            android:id="@+id/v_v7"
+            android:layout_below="@id/tv_setting6"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="#C1B1B7BD"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/tv_setting7"
+            android:layout_below="@id/v_v7"
+            android:text="التحكم في أجهزة الموبايل"
+            android:textSize="18sp"
+            android:textColor="#B5090707"
+            android:paddingRight="10dp"
+            android:drawableEnd="@drawable/arrow_right_30"
+            android:paddingTop="15dp"
+            />
+
+        <View
+            android:layout_width="380dp"
+            android:layout_height="1dp"
+            android:id="@+id/v_v8"
+            android:layout_below="@id/tv_setting7"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="#C1B1B7BD"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/tv_setting8"
+            android:layout_below="@id/v_v8"
+            android:text="تغيير كنية الحساب"
+            android:textSize="18sp"
+            android:textColor="#B5090707"
+            android:paddingRight="10dp"
+            android:drawableEnd="@drawable/arrow_right_30"
+            android:paddingTop="15dp"
+            />
+
+        <View
+            android:layout_width="380dp"
+            android:layout_height="1dp"
+            android:id="@+id/v_v9"
+            android:layout_below="@id/tv_setting8"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="#C1B1B7BD"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/tv_setting9"
+            android:layout_below="@id/v_v9"
+            android:text="تغيير رمز الدخول لل IVR_USSD"
+            android:textSize="18sp"
+            android:textColor="#B5090707"
+            android:paddingRight="10dp"
+            android:drawableEnd="@drawable/arrow_right_30"
+            android:paddingTop="15dp"
+            />
+
+        <View
+            android:layout_width="380dp"
+            android:layout_height="1dp"
+            android:id="@+id/v_v10"
+            android:layout_below="@id/tv_setting9"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="#C1B1B7BD"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/tv_setting10"
+            android:layout_below="@id/v_v10"
+            android:text="اعدادات بصمة الاصبع"
+            android:textSize="18sp"
+            android:textColor="#B5090707"
+            android:paddingRight="10dp"
+            android:drawableEnd="@drawable/arrow_right_30"
+            android:paddingTop="15dp"
+            />
+
+        <View
+            android:layout_width="380dp"
+            android:layout_height="1dp"
+            android:id="@+id/v_v11"
+            android:layout_below="@id/tv_setting10"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="#C1B1B7BD"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/tv_setting11"
+            android:layout_below="@id/v_v11"
+            android:text="تعيين الحساب المفضل للدفع"
+            android:textSize="18sp"
+            android:textColor="#B5090707"
+            android:paddingRight="10dp"
+            android:drawableEnd="@drawable/arrow_right_30"
+            android:paddingTop="15dp"
+            />
+
+        <View
+            android:layout_width="380dp"
+            android:layout_height="1dp"
+            android:id="@+id/v_v12"
+            android:layout_below="@id/tv_setting11"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="#C1B1B7BD"
+            />
+    </RelativeLayout>
+</ScrollView>

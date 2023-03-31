@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/tv_tt1"
+            android:layout_marginLeft="10dp"
+            android:drawableStart="@drawable/keyboard_backspace_40"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/v_v1"
+            android:layout_below="@id/tv_tt1"
+            android:background="#CEE0F3"
+            />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/v_v1"
+            android:layout_marginTop="0dp"
+            android:paddingTop="15dp"
+            android:paddingRight="15dp"
+            android:text="ادارة المستفيدين"
+            android:textColor="@color/normal"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:id="@+id/ed_search"
+            android:layout_below="@id/tv_name"
+            android:layout_centerHorizontal="true"
+            android:text="Search"
+            android:textColor="#3D3E40"
+            android:paddingLeft="10dp"
+            android:drawableStart="@drawable/search_30"
+            android:background="#C5C5D3"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/tv_tv1"
+            android:layout_below="@id/ed_search"
+            android:text="Internal"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#9A1342"
+            android:paddingLeft="30dp"
+            android:paddingTop="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/tv_tv2"
+            android:layout_below="@id/tv_tv1"
+            android:text="External"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#9A1342"
+            android:paddingLeft="30dp"
+            android:paddingTop="10dp"
+            />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:id="@+id/tv_tv3"
+            android:layout_below="@id/tv_tv2"
+            android:layout_centerHorizontal="true"
+            android:text="No beneficiary accounts available."
+            android:textSize="15dp"
+            android:paddingLeft="30dp"
+            />
+    </RelativeLayout>
+</ScrollView>
